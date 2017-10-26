@@ -8,7 +8,7 @@ public class nombreencaja {
 		Scanner entrada = new Scanner(System.in);
 		String eseTexto;
 		
-		System.out.println("Input Data:");
+		System.out.println("Input Text:");
 		eseTexto = entrada.next();
 		
 		cajita(eseTexto.length(), eseTexto);
